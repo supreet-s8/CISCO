@@ -1,0 +1,14 @@
+############################################################################################################
+# URL CAT OUTPUT FILE FIELDS LIST - make a selection of IB field and IB field number from following sample #
+############################################################################################################
+# browser/non browser,urlcat,sp,reducedurl,browser name,url language,mobile app,mobile app category,manufacturer,
+# model,mobile os,os version,mobile group,user agent,hostname,url,ref-hostname,ref url,content type,tac,tonnage,
+# <optional ua>,<optional url>
+####################################
+# CONFIGURAION FILE FORMAT         #
+##############################################################################################
+# <IBNAME>:<FIELD NUMBER>:<RECORDS REQUIRED IN OUTPUT - use 'FULL' string for complete list> #
+##############################################################################################
+sp:2:FULL
+mobile app:6:40
+model:9:200
